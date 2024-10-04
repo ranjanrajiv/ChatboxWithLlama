@@ -13,15 +13,16 @@ https://github.com/ranjanrajiv/ChatboxWithLlama
     2. data - Download the pdf, for the subject of interest. Used   to populate the vector database
 
 ### Create a python virtual environment using conda or virtualvenv
+    conda create -n venv python=3.12 -y
+    conda activate venv
 
 ### Install all the requirements with
     pip install -r requirements.txt
 
-### Perform the steps to access the cloud pinecone database.
-    Get the Pinecone api key (refer pinecone.io)
 
 ### Run vectordb_handler.py
-    This wil populate the pinecone vectordb
+    # Pouplate the Pinecone vectordb
+    python vectordb_handler.py
 
-### run python app.py
-    Access 127.0.0.1:8080
+### run the app
+    python app.py
