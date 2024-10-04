@@ -1,0 +1,7 @@
+ctransformers==0.2.27
+sentence-transformers==3.1.1
+pinecone-client
+langchain==0.3.1
+langchain-community
+pypdf
+flask
