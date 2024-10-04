@@ -9,8 +9,8 @@ https://github.com/ranjanrajiv/ChatboxWithLlama
 
 
 ### Create the directories
-    1. model - Download any language model for chat in this
-    2. data - Download the pdf, for the subject of interest. Used   to populate the vector database
+    # 1. model - Download any language model for chat in this
+    # 2. data - Download the pdf, for the subject of interest. Used   to populate the vector database
 
 ### Create a python virtual environment using conda or virtualvenv
     conda create -n venv python=3.12 -y
