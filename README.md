@@ -2,6 +2,12 @@
 
 This is a generalized chatbot. It can be used for any topic of interest with any chat llm.
 
+It uses pinecone vector DB to store the embeddings.
+
+Huggingface embedding is used.
+
+Two similarity vector for any query is generated. These two are then given to the LLMs to get the final result.
+
 ## Instruction - Steps to run
 
 ### Clone the repository
