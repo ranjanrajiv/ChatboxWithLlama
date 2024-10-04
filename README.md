@@ -17,8 +17,11 @@ https://github.com/ranjanrajiv/ChatboxWithLlama
 ### Install all the requirements with
     pip install -r requirements.txt
 
-### Perform the steps to access the cloud pinecone database. Then get the Pinecone api key (refer pinecone.io)
+### Perform the steps to access the cloud pinecone database.
+    Get the Pinecone api key (refer pinecone.io)
 
-### Run vectordb_handler.py to populate the pinecone vectordb
+### Run vectordb_handler.py
+    This wil populate the pinecone vectordb
 
-### run python app.py - Go to 127.0.0.1:8080
+### run python app.py
+    Access 127.0.0.1:8080
