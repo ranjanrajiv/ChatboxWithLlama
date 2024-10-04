@@ -2,6 +2,9 @@ ctransformers==0.2.27
 sentence-transformers==3.1.1
 pinecone-client
 langchain==0.3.1
-langchain-community
-pypdf
+langchain-community==0.3.1
+pypdf==5.0.1
+python-dotenv
 flask
+
+-e .
